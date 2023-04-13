@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  /* border: #c14f47 solid 1px; */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: #c3cb2a solid 2px;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border: #9b0f75 solid 3px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /*especifica se os itens flexíveis devem ser encapsulados ou não. */ 
+  margin: 5px;
+  border: #e33c09 solid 3px;
+}
+
+/* Crie duas colunas/caixas que flutuam uma ao lado da outra */
+/**/
+.coluna-esquerda {
+  float: left;
+  width: 25%;
+  background: #ccc;
+  padding: 5px;
+  height: 100%;
+  border: #e30b6c solid 3px;
+}
+
+article {
+  float: left;
+  padding: 5px;
+  width: 75%;
+  background-color: #f1f1f1;
+  height: 100%;
+  border: #0be31d solid 3px;
+}
+
+section{
+	flex: 1;
+  padding: 5px;
+  background-color: #47b7c1;
+  margin-right: 3px;
+  height: 600px;
+}
+
+aside {
+  width: 25%;
+  background-color: #ccc;
+  padding: 10px;
+  margin-bottom: 0px;
+  border: #0b20e3 solid 3px;
+}
+

@@ -1,0 +1,17 @@
+/* Layout Responsivo - faz com que as duas colunas/caixas se empilhem uma sobre a outra em vez de uma ao lado da outra, em telas pequenas */
+@media (max-width: 600px) {
+    .container {
+          flex-direction: column;
+    }
+    
+    article, .vertical-menu {
+      width: 100%;
+      height: auto;
+    }
+    
+    aside {  
+      flex-basis: auto;
+      width: 100%;
+      margin-top: 20px;
+   }
+}
